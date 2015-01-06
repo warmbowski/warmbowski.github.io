@@ -99,19 +99,19 @@ p {
  * Choose a different color based on the type of folio table.
  */
 
-.folio-table-free .folio-table-header {
+.folio-table-left .folio-table-header {
 /*    background: #519251;*/
   background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
   background-position: left;
 }
 
-.folio-table-biz .folio-table-header {
+.folio-table-center .folio-table-header {
 /*    background: #2c4985;*/
   background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
   background-position: center;
 }
 
-.folio-table-enterprise .folio-table-header {
+.folio-table-right .folio-table-header {
 /*    background: #000000;*/
   background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
   background-position: right;
