@@ -45,10 +45,10 @@ p {
  */
 
 .banner {
-    background: transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
+    background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/mute_rainbow_header.jpg', sizingMethod='scale');
 
     height: 200px;
     width: 100%;
@@ -97,11 +97,21 @@ p {
  * Choose a different color based on the type of folio table.
  */
 .folio-table-free .folio-table-header {
-    background: #519251;
+/*    background: #519251;*/
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background-position: left;
 }
 
 .folio-table-biz .folio-table-header {
-    background: #2c4985;
+/*    background: #2c4985;*/
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background-position: center;
+}
+
+.folio-table-enterprise .folio-table-header {
+/*    background: #000000;*/
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background-position: right;
 }
 
 /*
@@ -125,12 +135,12 @@ p {
  * -- PRICING TABLE PRICE --
  * Styles for the price and the corresponding <span>per month</span>
  */
-.folio-table-price {
-    font-size: 6em;
+.folio-table-name {
+    font-size: 4em;
     margin: 0.2em 0 0;
     font-weight: 100;
 }
-    .folio-table-price span {
+    .folio-table-name span {
         display: block;
         text-transform: uppercase;
         font-size: 0.2em;
