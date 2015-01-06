@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_Icon" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<polygon points="61.75,6.832 67.287,29.73 36.658,47.931 38.853,12.368  "/>
+	
+		<line fill="#000000" stroke="#FFFFFF" stroke-width="1.6946" stroke-miterlimit="10" x1="38.853" y1="12.368" x2="67.287" y2="29.73"/>
+</g>
+<path fill="none" stroke="#000000" stroke-width="1.6946" stroke-miterlimit="10" stroke-dasharray="5.0838" d="M36.488,47.964  c-6.201,10.493,3.856,15.403,16.847,22.182c8.64,4.505,23.16,10.732,11.298,24.854"/>
+<path fill="#000000" stroke="#FFFFFF" stroke-width="1.6946" stroke-miterlimit="10" stroke-dasharray="5.0838" d="M61.75,6.832  c-6.067,8.775-12.312,17.857-20.858,33.291l-2.5,4.445c-0.758,1.162-1.389,2.293-1.904,3.396"/>
+</svg>
