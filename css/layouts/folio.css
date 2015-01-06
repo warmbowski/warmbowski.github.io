@@ -96,6 +96,7 @@ p {
  * -- PRICING TABLE HEADER COLORS --
  * Choose a different color based on the type of folio table.
  */
+
 .folio-table-free .folio-table-header {
 /*    background: #519251;*/
   background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
