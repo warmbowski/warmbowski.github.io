@@ -47,6 +47,7 @@ p {
 .banner {
     background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
     text-align: center;
+    background-position: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/mute_rainbow_header.jpg', sizingMethod='scale');
 
