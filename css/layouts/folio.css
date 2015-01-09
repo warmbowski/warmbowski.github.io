@@ -100,19 +100,19 @@ p {
 
 .folio-table-left .folio-table-header {
 /*    background: #519251;*/
-  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat ;
   background-position: left;
 }
 
 .folio-table-center .folio-table-header {
 /*    background: #2c4985;*/
-  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat ;
   background-position: center;
 }
 
 .folio-table-right .folio-table-header {
 /*    background: #000000;*/
-  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat ;
   background-position: right;
 }
 
