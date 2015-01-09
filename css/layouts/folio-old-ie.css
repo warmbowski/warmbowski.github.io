@@ -101,19 +101,19 @@ p {
 
 .folio-table-left .folio-table-header {
 /*    background: #519251;*/
-  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat ;
   background-position: left;
 }
 
 .folio-table-center .folio-table-header {
 /*    background: #2c4985;*/
-  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat ;
   background-position: center;
 }
 
 .folio-table-right .folio-table-header {
 /*    background: #000000;*/
-  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../../images/mute_rainbow_header.jpg') 0 0 no-repeat ;
   background-position: right;
 }
 
@@ -244,6 +244,8 @@ p {
 .kite-SVG {
   margin: 0px -30px 0px -33px;
   vertical-align: top;
+  background-color: rgba(248, 247, 216, 0.4);
+  border-radius: 100%;
 }
 
 .med-recommended {
