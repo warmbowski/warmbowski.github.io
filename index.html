@@ -42,21 +42,22 @@
   </div>
 
   <div class="banner">
-      <h1 class="banner-head">
-          Paul Laskowski<br>
-          <ul class="image-list">
-          <li><img class="logos" src="images/logo-js-color.png"></li>
-          <li><img class="logos" src="images/logo-html5-color.png"></li>
-          <li><img class="logos" src="images/logo-angularjs-color.png"></li>
-          <li><img class="logos" src="images/logo-meteor-color.png"></li>
-        </ul>
+    <a name="hello"></a>
+    <h1 class="banner-head">
+        Paul Laskowski<br>
         <ul class="image-list">
-          <li><img class="logos" src="images/logo-nodejs-color.png"></li>
-          <li><img class="logos" src="images/logo-express-color.png"></li>
-          <li><img class="logos" src="images/logo-mongodb-color.png"></li>
-          <li><img class="logos" src="images/logo-rails-color.png"></li>
-          </ul>
-        </h1>
+        <li><img class="logos" src="images/logo-js-color.png"></li>
+        <li><img class="logos" src="images/logo-html5-color.png"></li>
+        <li><img class="logos" src="images/logo-angularjs-color.png"></li>
+        <li><img class="logos" src="images/logo-meteor-color.png"></li>
+      </ul>
+      <ul class="image-list">
+        <li><img class="logos" src="images/logo-nodejs-color.png"></li>
+        <li><img class="logos" src="images/logo-express-color.png"></li>
+        <li><img class="logos" src="images/logo-mongodb-color.png"></li>
+        <li><img class="logos" src="images/logo-rails-color.png"></li>
+        </ul>
+      </h1>
   </div>
 
 
@@ -317,6 +318,19 @@
         Paul Laskowski - Seattle, WA
       </p>
     </div>
+
+
+    <script type="text/javascript" language="javascript">
+      function moveWindow() {
+        console.log(window.location.href);
+        var url = window.location.href;
+        console.log(url.indexOf('#'))
+        if (url.indexOf('#') < 0) {
+          window.setTimeout(function() { window.location.hash="hello"; }, 3000);
+        }
+      }
+      moveWindow()
+    </script>
 
   </body>
 </html>
