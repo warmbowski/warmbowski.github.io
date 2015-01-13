@@ -207,7 +207,18 @@ p {
         color: #ddd;
     }
 
+    .image-list{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+    }
 
+    .image-list li {
+      padding: 2;
+      display: inline;
+      width: 50px;
+    }
 
 /*
  * -- TABLET MEDIA QUERIES --
@@ -221,6 +232,10 @@ p {
     }
     .folio-table {
         margin-bottom: 0;
+    }
+    .image-list li {
+      padding: 1;
+      width: 10px;
     }
 
 }
@@ -236,12 +251,50 @@ p {
     .banner-head {
         font-size: 3em;
     }
+    .image-list li {
+      padding: 1;
+      width: 10px;
+    }
+
 }
 
 /*
  * -- CUSTOM STYLES --
  * Style added onto this layout template
  */
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+/*width: 500px;*/
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 50px;
+position: absolute;
+left: -10px;
+top: -10px;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
 .kite-SVG {
   margin: 0px -30px 0px -33px;
   vertical-align: top;
@@ -263,15 +316,21 @@ p {
 }
 
 .med-logo {
-width: 100px;
-border-radius: 100%;
-background: #f0f0f0;
+  width: 100px;
+  border-radius: 100%;
+  background: #f0f0f0;
+}
+
+.logos {
+  opacity: 0.7;
+  max-width: 100%;
+  height: auto;
 }
 
 .lin-logo {
-height: 100px;
-border-radius: 10px;
-background: #f0f0f0;
+  height: 100px;
+  border-radius: 10px;
+  background: #f0f0f0;
 }
 
 .anchor-heading {
