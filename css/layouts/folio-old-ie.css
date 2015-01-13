@@ -211,41 +211,40 @@ p {
 }
 
 /*
- * -- TABLET MEDIA QUERIES --
- * On tablets, we want to slightly adjust the size of the banner
- * text and add some vertical space between the various folio tables
- */
-
-.banner-head {
-    font-size: 4em;
-}
-
-.folio-table {
-    margin-bottom: 0;
-}
-
-/*
- * -- PHONE MEDIA QUERIES --
- * On phones, we want to reduce the height and font-size of the banner further
- */
-
-.banner {
-    height: 400px;
-}
-
-.banner-head {
-    font-size: 3em;
-}
-
-/*
  * -- CUSTOM STYLES --
  * Style added onto this layout template
  */
-.kite-SVG {
-  margin: 0px -30px 0px -33px;
-  vertical-align: top;
-  background-color: rgba(248, 247, 216, 0.4);
-  border-radius: 100%;
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  /*width: 500px;*/
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 50px;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+ 
+blockquote cite:before {
+  content: "\2014 \2009";
 }
 
 .med-recommended {
@@ -261,13 +260,70 @@ p {
 }
 
 .med-logo {
-width: 100px;
-border-radius: 100%;
-background: #f0f0f0;
+  width: 100px;
+  border-radius: 100%;
+  background: #f0f0f0;
 }
 
 .lin-logo {
-height: 100px;
-border-radius: 10px;
-background: #f0f0f0;
+  height: 100px;
+  border-radius: 10px;
+  background: #f0f0f0;
+}
+
+.anchor-heading {
+  text-align: center;
+}
+
+.image-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.image-list li {
+  padding: 2;
+  display: inline;
+}
+
+img.logos {
+  opacity: 0.7;
+  height: 32px;
+}
+
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various folio tables
+ */
+
+.banner-head {
+    font-size: 4em;
+}
+
+.folio-table {
+    margin-bottom: 0;
+}
+
+img.logos {
+  height: 50px;
+}
+
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+
+.banner {
+    height: 400px;
+}
+
+.banner-head {
+    font-size: 3em;
+}
+
+img.logos {
+  height: 50px;
 }
