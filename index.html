@@ -227,9 +227,27 @@
                 </a>
               </li>
               <li>
-                <a href="mailto:paul@warm-spamless-bowski.org">
-                  Contact Me!
-                </a>
+                <a class="typeform-share link" href="https://warmbowski.typeform.com/to/yhDHlk" data-mode="2" target="_blank">Contact Me!</a>
+                <script>
+                  (function() {
+                    var qs,
+                    js,
+                    q,
+                    s,
+                    d=document,
+                    gi=d.getElementById,
+                    ce=d.createElement,
+                    gt=d.getElementsByTagName,id='typef_orm',
+                    b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                    if (!gi.call(d,id)) {
+                      js=ce.call(d,'script');
+                      js.id=id;
+                      js.src=b+'share.js';
+                      q=gt.call(d,'script')[0];
+                      q.parentNode.insertBefore(js,q)
+                    }
+                  })()
+                </script>
                 <br>
               </li>
             </ul>
@@ -315,13 +333,15 @@
 
     <div class="footer l-box">
       <p>
-        Paul Laskowski - Seattle, WA
+        <a class="typeform-share link" href="https://warmbowski.typeform.com/to/yhDHlk" data-mode="2" target="_blank">Paul Laskowski - Seattle, WA</a>
       </p>
     </div>
 
 
     <script type="text/javascript" language="javascript">
       function moveWindow() {
+        // Function to roll window down to hide menu bar.
+        // Now that menu bar is fixed, no need to use this.
         console.log(window.location.href);
         var url = window.location.href;
         console.log(url.indexOf('#'))
